@@ -19,6 +19,7 @@
 		1703288E29EDA51C004B44E6 /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1703288A29EDA51B004B44E6 /* squat.mp4 */; };
 		1703288F29EDA51C004B44E6 /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1703288B29EDA51C004B44E6 /* step-up.mp4 */; };
 		1703289029EDA51C004B44E6 /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1703288C29EDA51C004B44E6 /* burpee.mp4 */; };
+		1703289229EDAE01004B44E6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703289129EDAE01004B44E6 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		1703288A29EDA51B004B44E6 /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = squat.mp4; sourceTree = "<group>"; };
 		1703288B29EDA51C004B44E6 /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
 		1703288C29EDA51C004B44E6 /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
+		1703289129EDAE01004B44E6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +69,8 @@
 		1703286F29ED8B96004B44E6 /* FitGoals */ = {
 			isa = PBXGroup;
 			children = (
-				1703288829EDA503004B44E6 /* Videos */,
 				1703288329EDA318004B44E6 /* Extensions */,
+				1703288829EDA503004B44E6 /* Videos */,
 				1703287E29ED9EDB004B44E6 /* Views */,
 				1703287029ED8B96004B44E6 /* FitGoalsApp.swift */,
 				1703287429ED8B99004B44E6 /* Assets.xcassets */,
@@ -91,6 +93,7 @@
 				1703287229ED8B96004B44E6 /* ContentView.swift */,
 				1703287F29EDA2F2004B44E6 /* WelcomeView.swift */,
 				1703288129EDA30B004B44E6 /* ExerciseView.swift */,
+				1703289129EDAE01004B44E6 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				1703288029EDA2F2004B44E6 /* WelcomeView.swift in Sources */,
 				1703287129ED8B96004B44E6 /* FitGoalsApp.swift in Sources */,
 				1703288729EDA4CD004B44E6 /* Image+Extension.swift in Sources */,
+				1703289229EDAE01004B44E6 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

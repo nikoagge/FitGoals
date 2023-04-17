@@ -13,7 +13,15 @@ struct ExerciseView: View {
     let index: Int
     
     var body: some View {
-        Text(exerciseNames[index])
+        VStack {
+            HeaderView(exerciseName: exerciseNames[index])
+            Text("Video player")
+            Text("Timer")
+            Text("Start/Done button")
+            Text("Rating")
+            Text("History button")
+
+        }
     }
 }
 
