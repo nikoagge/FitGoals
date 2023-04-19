@@ -20,6 +20,7 @@
 		1703288F29EDA51C004B44E6 /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1703288B29EDA51C004B44E6 /* step-up.mp4 */; };
 		1703289029EDA51C004B44E6 /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1703288C29EDA51C004B44E6 /* burpee.mp4 */; };
 		1703289229EDAE01004B44E6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703289129EDAE01004B44E6 /* HeaderView.swift */; };
+		1703289429EDC095004B44E6 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703289329EDC095004B44E6 /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		1703288B29EDA51C004B44E6 /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
 		1703288C29EDA51C004B44E6 /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
 		1703289129EDAE01004B44E6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1703289329EDC095004B44E6 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				1703287F29EDA2F2004B44E6 /* WelcomeView.swift */,
 				1703288129EDA30B004B44E6 /* ExerciseView.swift */,
 				1703289129EDAE01004B44E6 /* HeaderView.swift */,
+				1703289329EDC095004B44E6 /* RatingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				1703288529EDA32E004B44E6 /* Date+Extension.swift in Sources */,
 				1703288229EDA30B004B44E6 /* ExerciseView.swift in Sources */,
 				1703287329ED8B96004B44E6 /* ContentView.swift in Sources */,
+				1703289429EDC095004B44E6 /* RatingView.swift in Sources */,
 				1703288029EDA2F2004B44E6 /* WelcomeView.swift in Sources */,
 				1703287129ED8B96004B44E6 /* FitGoalsApp.swift in Sources */,
 				1703288729EDA4CD004B44E6 /* Image+Extension.swift in Sources */,
