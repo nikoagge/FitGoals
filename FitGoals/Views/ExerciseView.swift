@@ -17,7 +17,7 @@ struct ExerciseView: View {
     var body: some View {
         GeometryReader { geometry in
             VStack {
-                HeaderView(exerciseName: exerciseNames[index])
+                HeaderView(titleText: exerciseNames[index])
                     .padding(.bottom)
                 VideoPlayerView(fileName: videoNames[index], height: geometry.size.height * 0.45)
                 DateView(interval: interval)
