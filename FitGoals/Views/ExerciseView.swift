@@ -9,17 +9,15 @@ import SwiftUI
 import AVKit
 
 struct ExerciseView: View {
-    let videoNames = ["squat", "step-up", "burpee", "sun-salute"]
-    let exerciseNames = ["Squat", "Step Up", "Burpee", "Sun Salute"]
     let index: Int
     let interval: TimeInterval = 30
     
     var body: some View {
         GeometryReader { geometry in
             VStack {
-                HeaderView(titleText: exerciseNames[index])
+                HeaderView(titleText: Exercise.exercises[index].exerciseName)
                     .padding(.bottom)
-                VideoPlayerView(fileName: videoNames[index], height: geometry.size.height * 0.45)
+                VideoPlayerView(fileName: Exercise.exercises[index].videoName, height: geometry.size.height * 0.45)
                 DateView(interval: interval)
                 StartOrDoneButtonView()
                 RatingView()
