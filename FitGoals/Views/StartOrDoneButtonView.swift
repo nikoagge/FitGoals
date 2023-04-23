@@ -9,7 +9,7 @@ import SwiftUI
 
 struct StartOrDoneButtonView: View {
     var body: some View {
-        Button("Start/Done button") {}
+        Button(NSLocalizedString("Start/Done", comment: "begin exercise / mark as finished")) {}
             .font(.title)
             .padding()
     }

@@ -11,37 +11,64 @@ struct Exercise {
     let exerciseName: String
     let videoName: String
     
-    enum ExerciseName: String {
-        case squat = "Squat"
-        case stepUp = "Step Up"
-        case burpee = "Burpee"
-        case sunSalute = "Sun Salute"
+    enum ExerciseName: CustomStringConvertible {
+        case squat, stepUp, burpee, sunSalute
+        
+        var description: String {
+            switch self {
+            case .squat:
+                return NSLocalizedString("Squat", comment: "exercise")
+                
+            case .stepUp:
+                return NSLocalizedString("Step Up", comment: "exercise")
+                
+            case .burpee:
+                return NSLocalizedString("Burpee", comment: "exercise")
+                
+            case .sunSalute:
+                return NSLocalizedString("Sun Salute", comment: "yoga stretch")
+            }
+        }
     }
     
-    enum VideoName: String {
-        case squat, burpee
-        case stepUp = "step-up"
-        case sunSalute = "sun-salute"
+    enum VideoName: CustomStringConvertible {
+        case squat, burpee, stepUp, sunSalute
+        
+        var description: String {
+            switch self {
+            case .squat:
+                return NSLocalizedString("squat", comment: "")
+                
+            case .burpee:
+                return NSLocalizedString("burpee", comment: "")
+                
+            case .stepUp:
+                return NSLocalizedString("step-up", comment: "")
+                
+            case .sunSalute:
+                return NSLocalizedString("sun-salute", comment: "")
+            }
+        }
     }
 }
 
 extension Exercise {
     static let exercises = [
         Exercise(
-            exerciseName: ExerciseName.squat.rawValue,
-            videoName: VideoName.squat.rawValue
+            exerciseName: String(describing: ExerciseName.squat),
+            videoName: String(describing: VideoName.squat)
         ),
         Exercise(
-            exerciseName: ExerciseName.stepUp.rawValue,
-            videoName: VideoName.stepUp.rawValue
+            exerciseName: String(describing: ExerciseName.stepUp),
+            videoName: String(describing: VideoName.stepUp)
         ),
         Exercise(
-            exerciseName: ExerciseName.burpee.rawValue,
-            videoName: VideoName.burpee.rawValue
+            exerciseName: String(describing: ExerciseName.burpee),
+            videoName: String(describing: VideoName.burpee)
         ),
         Exercise(
-            exerciseName: ExerciseName.sunSalute.rawValue,
-            videoName: VideoName.sunSalute.rawValue
+            exerciseName: String(describing: ExerciseName.sunSalute),
+            videoName: String(describing: VideoName.sunSalute)
         )
     ]
 }

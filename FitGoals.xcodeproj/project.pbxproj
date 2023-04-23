@@ -15,10 +15,6 @@
 		1703288229EDA30B004B44E6 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703288129EDA30B004B44E6 /* ExerciseView.swift */; };
 		1703288529EDA32E004B44E6 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703288429EDA32E004B44E6 /* Date+Extension.swift */; };
 		1703288729EDA4CD004B44E6 /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703288629EDA4CD004B44E6 /* Image+Extension.swift */; };
-		1703288D29EDA51C004B44E6 /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1703288929EDA51B004B44E6 /* sun-salute.mp4 */; };
-		1703288E29EDA51C004B44E6 /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1703288A29EDA51B004B44E6 /* squat.mp4 */; };
-		1703288F29EDA51C004B44E6 /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1703288B29EDA51C004B44E6 /* step-up.mp4 */; };
-		1703289029EDA51C004B44E6 /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1703288C29EDA51C004B44E6 /* burpee.mp4 */; };
 		1703289229EDAE01004B44E6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703289129EDAE01004B44E6 /* HeaderView.swift */; };
 		1703289429EDC095004B44E6 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703289329EDC095004B44E6 /* RatingView.swift */; };
 		175C09A029F3F1DF00A197E8 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C099F29F3F1DF00A197E8 /* SuccessView.swift */; };
@@ -26,6 +22,11 @@
 		176CE27C29F572ED0062E6F8 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CE27B29F572ED0062E6F8 /* HistoryStore.swift */; };
 		176CE27E29F576B50062E6F8 /* ExerciseDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CE27D29F576B50062E6F8 /* ExerciseDay.swift */; };
 		176CE28029F5828B0062E6F8 /* HistoryStoreMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CE27F29F5828B0062E6F8 /* HistoryStoreMockData.swift */; };
+		176CE28929F5A4780062E6F8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 176CE28729F5A4780062E6F8 /* Localizable.strings */; };
+		176CE28B29F5A69E0062E6F8 /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 176CE28D29F5A69E0062E6F8 /* squat.mp4 */; };
+		176CE28E29F5A6AC0062E6F8 /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 176CE29029F5A6AC0062E6F8 /* burpee.mp4 */; };
+		176CE29129F5A6B10062E6F8 /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 176CE29329F5A6B10062E6F8 /* step-up.mp4 */; };
+		176CE29429F5A6B80062E6F8 /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 176CE29629F5A6B80062E6F8 /* sun-salute.mp4 */; };
 		17E4FC9129F003EE00673B7A /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4FC9029F003EE00673B7A /* VideoPlayerView.swift */; };
 		17E4FC9329F00C9F00673B7A /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4FC9229F00C9F00673B7A /* DateView.swift */; };
 		17E4FC9529F0117500673B7A /* StartOrDoneButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4FC9429F0117500673B7A /* StartOrDoneButtonView.swift */; };
@@ -43,10 +44,6 @@
 		1703288129EDA30B004B44E6 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		1703288429EDA32E004B44E6 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		1703288629EDA4CD004B44E6 /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
-		1703288929EDA51B004B44E6 /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sun-salute.mp4"; sourceTree = "<group>"; };
-		1703288A29EDA51B004B44E6 /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = squat.mp4; sourceTree = "<group>"; };
-		1703288B29EDA51C004B44E6 /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
-		1703288C29EDA51C004B44E6 /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
 		1703289129EDAE01004B44E6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		1703289329EDC095004B44E6 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		175C099F29F3F1DF00A197E8 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
@@ -54,6 +51,12 @@
 		176CE27B29F572ED0062E6F8 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
 		176CE27D29F576B50062E6F8 /* ExerciseDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDay.swift; sourceTree = "<group>"; };
 		176CE27F29F5828B0062E6F8 /* HistoryStoreMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStoreMockData.swift; sourceTree = "<group>"; };
+		176CE28829F5A4780062E6F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		176CE28A29F5A4C90062E6F8 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		176CE28C29F5A69E0062E6F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/squat.mp4; sourceTree = "<group>"; };
+		176CE28F29F5A6AC0062E6F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/burpee.mp4; sourceTree = "<group>"; };
+		176CE29229F5A6B10062E6F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/step-up.mp4"; sourceTree = "<group>"; };
+		176CE29529F5A6B80062E6F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/sun-salute.mp4"; sourceTree = "<group>"; };
 		17E4FC9029F003EE00673B7A /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		17E4FC9229F00C9F00673B7A /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
 		17E4FC9429F0117500673B7A /* StartOrDoneButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartOrDoneButtonView.swift; sourceTree = "<group>"; };
@@ -91,12 +94,13 @@
 		1703286F29ED8B96004B44E6 /* FitGoals */ = {
 			isa = PBXGroup;
 			children = (
+				176CE28729F5A4780062E6F8 /* Localizable.strings */,
 				1703288329EDA318004B44E6 /* Extensions */,
 				175C09A129F3FA6D00A197E8 /* Models */,
+				176CE28129F58F8B0062E6F8 /* Resources */,
 				1703288829EDA503004B44E6 /* Videos */,
 				1703287E29ED9EDB004B44E6 /* Views */,
 				1703287029ED8B96004B44E6 /* FitGoalsApp.swift */,
-				1703287429ED8B99004B44E6 /* Assets.xcassets */,
 				1703287629ED8B99004B44E6 /* Preview Content */,
 			);
 			path = FitGoals;
@@ -141,10 +145,10 @@
 		1703288829EDA503004B44E6 /* Videos */ = {
 			isa = PBXGroup;
 			children = (
-				1703288C29EDA51C004B44E6 /* burpee.mp4 */,
-				1703288A29EDA51B004B44E6 /* squat.mp4 */,
-				1703288B29EDA51C004B44E6 /* step-up.mp4 */,
-				1703288929EDA51B004B44E6 /* sun-salute.mp4 */,
+				176CE29029F5A6AC0062E6F8 /* burpee.mp4 */,
+				176CE28D29F5A69E0062E6F8 /* squat.mp4 */,
+				176CE29329F5A6B10062E6F8 /* step-up.mp4 */,
+				176CE29629F5A6B80062E6F8 /* sun-salute.mp4 */,
 			);
 			path = Videos;
 			sourceTree = "<group>";
@@ -157,6 +161,14 @@
 				176CE27B29F572ED0062E6F8 /* HistoryStore.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		176CE28129F58F8B0062E6F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1703287429ED8B99004B44E6 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +213,7 @@
 			knownRegions = (
 				en,
 				Base,
+				it,
 			);
 			mainGroup = 1703286429ED8B96004B44E6;
 			productRefGroup = 1703286E29ED8B96004B44E6 /* Products */;
@@ -217,11 +230,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1703288F29EDA51C004B44E6 /* step-up.mp4 in Resources */,
+				176CE29129F5A6B10062E6F8 /* step-up.mp4 in Resources */,
 				1703287829ED8B99004B44E6 /* Preview Assets.xcassets in Resources */,
-				1703289029EDA51C004B44E6 /* burpee.mp4 in Resources */,
-				1703288D29EDA51C004B44E6 /* sun-salute.mp4 in Resources */,
-				1703288E29EDA51C004B44E6 /* squat.mp4 in Resources */,
+				176CE28E29F5A6AC0062E6F8 /* burpee.mp4 in Resources */,
+				176CE29429F5A6B80062E6F8 /* sun-salute.mp4 in Resources */,
+				176CE28929F5A4780062E6F8 /* Localizable.strings in Resources */,
+				176CE28B29F5A69E0062E6F8 /* squat.mp4 in Resources */,
 				1703287529ED8B99004B44E6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,11 +270,56 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		176CE28729F5A4780062E6F8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176CE28829F5A4780062E6F8 /* en */,
+				176CE28A29F5A4C90062E6F8 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		176CE28D29F5A69E0062E6F8 /* squat.mp4 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176CE28C29F5A69E0062E6F8 /* Base */,
+			);
+			name = squat.mp4;
+			sourceTree = "<group>";
+		};
+		176CE29029F5A6AC0062E6F8 /* burpee.mp4 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176CE28F29F5A6AC0062E6F8 /* Base */,
+			);
+			name = burpee.mp4;
+			sourceTree = "<group>";
+		};
+		176CE29329F5A6B10062E6F8 /* step-up.mp4 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176CE29229F5A6B10062E6F8 /* Base */,
+			);
+			name = "step-up.mp4";
+			sourceTree = "<group>";
+		};
+		176CE29629F5A6B80062E6F8 /* sun-salute.mp4 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176CE29529F5A6B80062E6F8 /* Base */,
+			);
+			name = "sun-salute.mp4";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		1703287929ED8B99004B44E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -321,6 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
