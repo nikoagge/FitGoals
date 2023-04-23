@@ -23,6 +23,9 @@
 		1703289429EDC095004B44E6 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1703289329EDC095004B44E6 /* RatingView.swift */; };
 		175C09A029F3F1DF00A197E8 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C099F29F3F1DF00A197E8 /* SuccessView.swift */; };
 		175C09A329F3FA8A00A197E8 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C09A229F3FA8A00A197E8 /* Exercise.swift */; };
+		176CE27C29F572ED0062E6F8 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CE27B29F572ED0062E6F8 /* HistoryStore.swift */; };
+		176CE27E29F576B50062E6F8 /* ExerciseDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CE27D29F576B50062E6F8 /* ExerciseDay.swift */; };
+		176CE28029F5828B0062E6F8 /* HistoryStoreMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CE27F29F5828B0062E6F8 /* HistoryStoreMockData.swift */; };
 		17E4FC9129F003EE00673B7A /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4FC9029F003EE00673B7A /* VideoPlayerView.swift */; };
 		17E4FC9329F00C9F00673B7A /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4FC9229F00C9F00673B7A /* DateView.swift */; };
 		17E4FC9529F0117500673B7A /* StartOrDoneButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4FC9429F0117500673B7A /* StartOrDoneButtonView.swift */; };
@@ -48,6 +51,9 @@
 		1703289329EDC095004B44E6 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		175C099F29F3F1DF00A197E8 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		175C09A229F3FA8A00A197E8 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		176CE27B29F572ED0062E6F8 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		176CE27D29F576B50062E6F8 /* ExerciseDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDay.swift; sourceTree = "<group>"; };
+		176CE27F29F5828B0062E6F8 /* HistoryStoreMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStoreMockData.swift; sourceTree = "<group>"; };
 		17E4FC9029F003EE00673B7A /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		17E4FC9229F00C9F00673B7A /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
 		17E4FC9429F0117500673B7A /* StartOrDoneButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartOrDoneButtonView.swift; sourceTree = "<group>"; };
@@ -100,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				1703287729ED8B99004B44E6 /* Preview Assets.xcassets */,
+				176CE27F29F5828B0062E6F8 /* HistoryStoreMockData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -146,6 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				175C09A229F3FA8A00A197E8 /* Exercise.swift */,
+				176CE27D29F576B50062E6F8 /* ExerciseDay.swift */,
+				176CE27B29F572ED0062E6F8 /* HistoryStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,6 +237,8 @@
 				17E4FC9329F00C9F00673B7A /* DateView.swift in Sources */,
 				1703288529EDA32E004B44E6 /* Date+Extension.swift in Sources */,
 				17E4FC9829F011DC00673B7A /* HistoryButtonView.swift in Sources */,
+				176CE28029F5828B0062E6F8 /* HistoryStoreMockData.swift in Sources */,
+				176CE27E29F576B50062E6F8 /* ExerciseDay.swift in Sources */,
 				17E4FC9A29F0145F00673B7A /* HistoryView.swift in Sources */,
 				175C09A329F3FA8A00A197E8 /* Exercise.swift in Sources */,
 				1703288229EDA30B004B44E6 /* ExerciseView.swift in Sources */,
@@ -236,6 +247,7 @@
 				1703289429EDC095004B44E6 /* RatingView.swift in Sources */,
 				1703288029EDA2F2004B44E6 /* WelcomeView.swift in Sources */,
 				1703287129ED8B96004B44E6 /* FitGoalsApp.swift in Sources */,
+				176CE27C29F572ED0062E6F8 /* HistoryStore.swift in Sources */,
 				1703288729EDA4CD004B44E6 /* Image+Extension.swift in Sources */,
 				1703289229EDAE01004B44E6 /* HeaderView.swift in Sources */,
 				17E4FC9129F003EE00673B7A /* VideoPlayerView.swift in Sources */,
