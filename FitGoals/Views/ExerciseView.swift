@@ -12,10 +12,11 @@ struct ExerciseView: View {
     @State private var rating = 0
     @State private var showHistory = false
     @State private var showSuccess = false
+    @State private var isTimerDone = false
+    @State private var showTimer = false
 
     @Binding var selectedTab: Int
     let index: Int
-    let interval: TimeInterval = 30
     
     var lastExercise: Bool {
         index + 1 == Exercise.exercises.count
@@ -27,16 +28,24 @@ struct ExerciseView: View {
                 HeaderView(selectedTab: $selectedTab, titleText: Exercise.exercises[index].exerciseName)
                     .padding(.bottom)
                 VideoPlayerView(fileName: Exercise.exercises[index].videoName, height: geometry.size.height * 0.45)
-                DateView(interval: interval)
+                if showTimer {
+                    TimerView(isTimerDone: $isTimerDone)
+                }
                 HStack(spacing: 150) {
-                    Button("Start Exercise") { }
+                    Button("Start Exercise") {
+                        showTimer.toggle()
+                    }
                     Button("Done") {
+                        isTimerDone = false
+                        showTimer.toggle()
+                        
                         if lastExercise {
                             showSuccess.toggle()
                         } else {
                             selectedTab += 1
                         }
                     }
+                    .disabled(!isTimerDone)
                     .sheet(isPresented: $showSuccess) {
                         SuccessView(selectedTab: $selectedTab)
                     }
