@@ -8,7 +8,7 @@
 import Foundation
 
 extension HistoryStore {
-    mutating func createMockData() {
+    func createMockData() {
         exerciseDays = [
             ExerciseDay(
                 date: Date().addingTimeInterval(-86400),
