@@ -12,6 +12,12 @@ struct FitGoalsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                    debugPrint(FileManager.default.urls(
+                        for: .documentDirectory,
+                        in: .userDomainMask)
+                    )
+                }
         }
     }
 }

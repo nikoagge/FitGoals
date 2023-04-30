@@ -24,6 +24,7 @@ struct ContentView: View {
         .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
     }
 }
+    
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
