@@ -9,6 +9,7 @@ import SwiftUI
 import AVKit
 
 struct ExerciseView: View {
+    @State private var rating = 0
     @Binding var selectedTab: Int
     let index: Int
     let interval: TimeInterval = 30
@@ -20,7 +21,7 @@ struct ExerciseView: View {
     var body: some View {
         GeometryReader { geometry in
             VStack {
-                HeaderView(titleText: Exercise.exercises[index].exerciseName)
+                HeaderView(selectedTab: $selectedTab, titleText: Exercise.exercises[index].exerciseName)
                     .padding(.bottom)
                 VideoPlayerView(fileName: Exercise.exercises[index].videoName, height: geometry.size.height * 0.45)
                 DateView(interval: interval)
@@ -32,7 +33,7 @@ struct ExerciseView: View {
                 }
                 .font(.title3)
                 .padding()
-                RatingView()
+                RatingView(rating: $rating)
                     .padding()
                 HistoryButtonView()
             }
