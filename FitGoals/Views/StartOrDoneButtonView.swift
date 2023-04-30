@@ -9,9 +9,12 @@ import SwiftUI
 
 struct StartOrDoneButtonView: View {
     var body: some View {
-        Button(NSLocalizedString("Start/Done", comment: "begin exercise / mark as finished")) {}
-            .font(.title)
-            .padding()
+        HStack(spacing: 150) {
+            Button("Start Exercise") { }
+            Button("Done") { }
+        }
+        .font(.title3)
+        .padding()
     }
 }
 
