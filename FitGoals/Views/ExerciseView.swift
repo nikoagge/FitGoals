@@ -28,9 +28,6 @@ struct ExerciseView: View {
                 HeaderView(selectedTab: $selectedTab, titleText: Exercise.exercises[index].exerciseName)
                     .padding(.bottom)
                 VideoPlayerView(fileName: Exercise.exercises[index].videoName, height: geometry.size.height * 0.45)
-                if showTimer {
-                    TimerView(isTimerDone: $isTimerDone)
-                }
                 HStack(spacing: 150) {
                     Button("Start Exercise") {
                         showTimer.toggle()
@@ -52,6 +49,10 @@ struct ExerciseView: View {
                 }
                 .font(.title3)
                 .padding()
+                if showTimer {
+                    TimerView(isTimerDone: $isTimerDone)
+                }
+                Spacer()
                 RatingView(rating: $rating)
                     .padding()
                 Button("History") {
