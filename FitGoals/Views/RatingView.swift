@@ -10,7 +10,7 @@ import SwiftUI
 struct RatingView: View {
     @State private var rating = 0
     
-    @AppStorage("ratings") private var ratings = "4000"
+    @AppStorage("ratings") private var ratings = ""
 
     let maximumRating = 5
     
@@ -38,6 +38,18 @@ struct RatingView: View {
             }
         }
         .font(.largeTitle)
+    }
+    
+    init(exerciseIndex: Int) {
+        self.exerciseIndex = exerciseIndex
+        let desiredLength = Exercise.exercises.count
+        if ratings.count < desiredLength {
+            ratings = ratings.padding(
+                toLength: desiredLength,
+                withPad: "0",
+                startingAt: 0
+            )
+        }
     }
     
     func updateRating(index: Int) {
