@@ -29,7 +29,6 @@
 		176CE29429F5A6B80062E6F8 /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 176CE29629F5A6B80062E6F8 /* sun-salute.mp4 */; };
 		17E4FC9129F003EE00673B7A /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4FC9029F003EE00673B7A /* VideoPlayerView.swift */; };
 		17E4FC9329F00C9F00673B7A /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4FC9229F00C9F00673B7A /* DateView.swift */; };
-		17E4FC9829F011DC00673B7A /* HistoryButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4FC9729F011DC00673B7A /* HistoryButtonView.swift */; };
 		17E4FC9A29F0145F00673B7A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4FC9929F0145F00673B7A /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,7 +57,6 @@
 		176CE29529F5A6B80062E6F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/sun-salute.mp4"; sourceTree = "<group>"; };
 		17E4FC9029F003EE00673B7A /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		17E4FC9229F00C9F00673B7A /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
-		17E4FC9729F011DC00673B7A /* HistoryButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryButtonView.swift; sourceTree = "<group>"; };
 		17E4FC9929F0145F00673B7A /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,7 +121,6 @@
 				1703289329EDC095004B44E6 /* RatingView.swift */,
 				17E4FC9029F003EE00673B7A /* VideoPlayerView.swift */,
 				17E4FC9229F00C9F00673B7A /* DateView.swift */,
-				17E4FC9729F011DC00673B7A /* HistoryButtonView.swift */,
 				17E4FC9929F0145F00673B7A /* HistoryView.swift */,
 				175C099F29F3F1DF00A197E8 /* SuccessView.swift */,
 			);
@@ -246,7 +243,6 @@
 			files = (
 				17E4FC9329F00C9F00673B7A /* DateView.swift in Sources */,
 				1703288529EDA32E004B44E6 /* Date+Extension.swift in Sources */,
-				17E4FC9829F011DC00673B7A /* HistoryButtonView.swift in Sources */,
 				176CE28029F5828B0062E6F8 /* HistoryStoreMockData.swift in Sources */,
 				176CE27E29F576B50062E6F8 /* ExerciseDay.swift in Sources */,
 				17E4FC9A29F0145F00673B7A /* HistoryView.swift in Sources */,
